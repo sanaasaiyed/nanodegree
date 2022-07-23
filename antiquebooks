@@ -1,0 +1,43 @@
+year = input('Enter a year between 1800 and 1950 (4 digits): ')
+
+
+first_2_digits= (year[0:2])
+if first_2_digits == '18':
+    century = '19th century'
+    print(century)
+elif first_2_digits == '19':
+    century = '20th century'
+    print(century)
+
+last_2_digits = (year[2:3])
+
+if last_2_digits == '0':
+    decade = 'noughties'
+    print(decade)
+elif last_2_digits == '1':
+    decade = 'teens'
+    print(decade)
+elif last_2_digits == '2':
+    decade = 'twenties'
+    print(decade)
+elif last_2_digits == '3':
+    decade = 'thirties'
+    print(decade)
+elif last_2_digits == '4':
+    decade = 'forties'
+    print(decade)
+elif last_2_digits == '5':
+    decade = 'fifties'
+    print(decade)
+elif last_2_digits == '6':
+    decade = 'sixties'
+    print(decade)
+elif last_2_digits == '27':
+    decade = 'seventies'
+    print(decade)
+elif last_2_digits == '8':
+    decade = 'eighties'
+    print(decade)
+elif last_2_digits == '9':
+    decade = 'nineties'
+    print(decade)
